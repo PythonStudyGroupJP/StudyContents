@@ -12,7 +12,7 @@ from linebot.models import (
 )
 
 
-user_info = {
+app_config = {
     'YOUR_CHANNEL_ACCESS_TOKEN': 'xxx',
     'YOUR_CHANNEL_SECRET': 'xxx',
     'host': 'localhost',
@@ -20,8 +20,8 @@ user_info = {
 }
 
 app = Flask(__name__)
-line_bot_api = LineBotApi(user_info['YOUR_CHANNEL_ACCESS_TOKEN'])
-handler = WebhookHandler(user_info['YOUR_CHANNEL_SECRET'])
+line_bot_api = LineBotApi(app_config['YOUR_CHANNEL_ACCESS_TOKEN'])
+handler = WebhookHandler(app_config['YOUR_CHANNEL_SECRET'])
 
 
 @app.route("/", methods=['POST'])
@@ -59,6 +59,6 @@ def handle_message(event):
 
 if __name__ == "__main__":
     app.run(
-        host=user_info['host'],
-        port=user_info['port']
+        host=app_config['host'],
+        port=app_config['port']
     )
