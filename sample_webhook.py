@@ -47,8 +47,28 @@ def handle_message(event):
     # Webhook接続確認か判定
     if event.reply_token == "00000000000000000000000000000000":
         return
-    pass
+    line_bot_api.reply_message(
+        event.reply_token,
+        [
+            TextSendMessage(text="こんにちは")
+        ]
+    )
 
+"""
+# try文を使う方法 (公式ドキュメントに掲載されているのはこっち)
+@handler.add(MessageEvent, message=TextMessage)
+def handle_message(event):
+    try:
+        line_bot_api.reply_message(
+            event.reply_token,
+            [
+                TextSendMessage(text="こんにちは")
+            ]
+        )
+    except:
+        # Webhook接続確認
+        pass
+"""
 
 if __name__ == "__main__":
     app.run(
