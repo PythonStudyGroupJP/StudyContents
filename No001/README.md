@@ -1,5 +1,9 @@
-# PSG_No.001_LINEbot  
-Python勉強会(#001)用のレポジトリ。  
+## タイトル
+第1回Python勉強会「LinebotをPythonで作ろう!」
+
+## 開催日時・場所
+日時：2018/03/23	19:45〜
+場所：渋谷スクエアA
 
 ## SDK of the LINE Messaging API for Python.  
 
@@ -22,3 +26,6 @@ webhook接続確認を行った時にエラーにしないための対策
 ### 2. sample_echo.py  
 LINEからユーザが送ってきたメッセージをそのままレスポンスとして返す  
 [PSG_No.001_LINEbot/sample_echo.py](https://github.com/PythonStudyGroupJP/PSG_No.001_LINEbot/blob/master/sample_echo.py)  
+
+## 協力
+[サポーターズCoLab様](https://supporterzcolab.com/dashboard/)
