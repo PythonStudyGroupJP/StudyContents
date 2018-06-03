@@ -27,5 +27,9 @@ webhook接続確認を行った時にエラーにしないための対策
 LINEからユーザが送ってきたメッセージをそのままレスポンスとして返す  
 [PSG_No.001_LINEbot/sample_echo.py](https://github.com/PythonStudyGroupJP/PSG_No.001_LINEbot/blob/master/sample_echo.py)  
 
+## 資料
+
+[Python勉強会(#001) 『LINE botをPythonで作ろう！』公開資料](https://pythonstudygrup.jp/2018/03/24/python%E5%8B%89%E5%BC%B7%E4%BC%9A001-%E3%80%8Eline-bot%E3%82%92python%E3%81%A7%E4%BD%9C%E3%82%8D%E3%81%86%EF%BC%81%E3%80%8F%E5%85%AC%E9%96%8B%E8%B3%87%E6%96%99/)
+
 ## 協力
 [サポーターズCoLab様](https://supporterzcolab.com/dashboard/)
