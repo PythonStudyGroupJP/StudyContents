@@ -16,11 +16,11 @@ from linebot.models import MessageEvent
 from linebot.models import ImageMessage
 from linebot.models import TextSendMessage
 
-from functions import get_config
-from functions import get_logging_config
-from functions import is_webhook_confirmed
-from functions import save_img_tmp_file
-from classified_image import predict
+from .functions import get_config
+from .functions import get_logging_config
+from .functions import is_webhook_confirmed
+from .functions import save_img_tmp_file
+from .classified_image import predict
 
 
 config.fileConfig(get_logging_config())
