@@ -1,0 +1,5 @@
+A3RT:
+  ApiKey: "YOUR_TALK_API_KEY"
+LineConfig:
+  ChannelSecret: "YOUR_CHANNEL_ACCESS_TOKEN"
+  AccessToken: "YOUR_CHANNEL_SECRET"
